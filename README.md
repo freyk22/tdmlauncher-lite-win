@@ -18,33 +18,27 @@ This is a a lite version of the coming original version.
 1. 
 Download and install nsis 
 (http://nsis.sourceforge.net)
-
-2.
-Copy the src-folder.
+Download nsprocess
+(http://nsis.sourceforge.net/NsProcess_plugin)
 
 3. 
-Extract nsprocess.dll from "nssis-tools\nsProcess_1_6.zip\nsProcess_1_6\Plugin\nsProcess.dll" 
+Extract nsprocess.dll from the downloaded nsprocess zip-file and
 to "C:\Program Files\NSIS\Plugins\x86-ansi\" and "C:\Program Files\NSIS\Plugins\x86-unicode"
 
 4.END
 
 
 -- Compiling the script --
-
-
-1. 
-Go to the source folder. 
-
 2.
 Compile the installer:
 
 Method 1:
-right-click darkmodinstaller.nsi" > compile nsis script.
+right-click tdmlauncherlite.nsi" > compile nsis script.
 
 Method 2:
 start cmd,
 go to the source folder
-and run: C:\Program Files\NSIS\makensis.exe /X"SetCompressor /FINAL lzma" darkmodinstaller.nsi
+and run: C:\Program Files\NSIS\makensis.exe /X"SetCompressor /FINAL lzma" tdmlauncherlite.nsi.nsi
 
 3.
 END
