@@ -8,13 +8,13 @@ https://freyk.wordpress.com
 Created for the dark mod (http://www.thedarkmod.com)
 Created with Nsis 3.04 and CoolSoft's NSISDialogDesigner 1.4.1
 
--- Description --
+# Description 
 A Graphical launcher that can run the gamebinary and the updater,
 using given arguments.
 This is a a lite version of the coming original version.
 
 
--- Setting up the build environment --
+# Setting up the build environment
 1. 
 Download and install nsis 
 (http://nsis.sourceforge.net)
@@ -25,12 +25,13 @@ Download nsprocess
 Extract nsprocess.dll from the downloaded nsprocess zip-file and
 to "C:\Program Files\NSIS\Plugins\x86-ansi\" and "C:\Program Files\NSIS\Plugins\x86-unicode"
 
-4.END
+4.
+END
 
 
--- Compiling the script --
-2.
-Compile the installer:
+# Compiling the script
+
+Compile the launcher:
 
 Method 1:
 right-click tdmlauncherlite.nsi" > compile nsis script.
@@ -43,13 +44,13 @@ and run: C:\Program Files\NSIS\makensis.exe /X"SetCompressor /FINAL lzma" tdmlau
 3.
 END
 
--- Working on the code --
+#  Working on the code
 
 Use coolsoft's "nsis Dialog Designer" 
 (http://coolsoft.altervista.org/en/nsisdialogdesigner)
 to create the forms.
 
--- Versions --
+# Versions
 Changes / bugfixes
 
 20160829
