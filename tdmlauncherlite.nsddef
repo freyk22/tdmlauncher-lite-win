@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file was created by NSISDialogDesigner 1.4.1.0
+http://coolsoft.altervista.org/nsisdialogdesigner
+Do not edit manually!
+-->
+<Dialog Name="tdmlauncher" Title="TDM Launcher - Lite">
+  <Label Name="lArguments" Location="12, 109" Size="65, 18" Text="Arguments:" TabIndex="0" />
+  <TextBox Name="tbArguments" Location="12, 130" Size="298, 20" TabIndex="1" />
+  <Button Name="bRun" Location="12, 192" Size="87, 24" Text="Run" TabIndex="2" onClick="fncTdmlauncherLeave" />
+  <RadioButton Name="rbTDM" Location="12, 41" Size="103, 23" Text="The Dark Mod" Checked="True" TabIndex="3" />
+  <RadioButton Name="rbTDMUpdater" Location="12, 70" Size="143, 20" Text="The Dark Mod Updater" TabIndex="4" />
+  <Label Name="lDescription" Location="12, 22" Size="226, 16" Text="Which TDM application do you want to run?" TabIndex="5" />
+</Dialog>
